@@ -67,8 +67,8 @@ h3 { font-size: 1.15rem; margin-bottom: .5rem; }
 }
 @media (max-width: 600px) { .term { padding: 1rem; font-size: 12px; } }
 
-.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-.grid.two { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); }
+.grid.two { grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); }
 
 .card {
   background: var(--card);
